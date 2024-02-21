@@ -14,8 +14,20 @@ public class Car {
         this.engineSize = engineSize;
     }
 
-    public String getBrandAndModel() {
-        return brand + " " + model;
+    public String getBrand() {
+        return brand;
+    }
+
+    public void setBrand(String brand) {
+        this.brand = brand;
+    }
+
+    public String getModel() {
+        return model;
+    }
+
+    public void setModel(String model) {
+        this.model = model;
     }
 
     public String getPlate() {
@@ -31,5 +43,9 @@ public class Car {
 
     public int getEngineSize() {
         return engineSize;
+    }
+
+    public void setEngineSize(int engineSize) {
+        this.engineSize = engineSize;
     }
 }
